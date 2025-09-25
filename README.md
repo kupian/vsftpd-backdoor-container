@@ -8,7 +8,7 @@ This assumes you have a working docker install
 
 build with `sudo docker build -t vsftpd:latest .`
 
-then run `docker run -p 2121:21 -p 6200:6200 vulnerable-vsftpd:2.3.4`
+then run `docker run -p 2121:21 -p 6200:6200 vsftpd:latest`
 
 ## Exploit
 
