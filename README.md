@@ -17,3 +17,5 @@ then run `docker run -p 2121:21 -p 6200:6200 vulnerable-vsftpd:2.3.4`
 3. Provide any password
 4. In a new terminal, initiate a connection to port 6200: `nc localhost 6200`
 5. Congrats, shell achieved!
+
+*Alternatively, just run the python script on your host machine. It will give everyone who triggers the backdoor root access to your system, but maybe that's what you're going for. Who am I to stop you?*
